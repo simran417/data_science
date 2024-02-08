@@ -19,7 +19,7 @@ def simple_interest(p,t,r):
     print("the simple interest is: ",si)
     return si
 
-simple_interest(p,t,r)'''
+simple_interest(p,t,r)
 
 
 # 2nd program:
@@ -32,4 +32,20 @@ if(num>1):
             break
         else:
             print(num," is prime")  
-            break 
+            break '''
+
+
+# to count occurence of word in file:
+
+count=0
+f = open("C:/Users/hp/OneDrive/Desktop/Python/.idea/sample.txt","r")
+data = f.read()
+letter = input("enter word to be searched: ")
+for i in range(0,len(data)):
+    if(letter==data[i]):
+        count=count+1
+    else:
+        print("this word is not present")    
+        
+print(count)
+f.close()
