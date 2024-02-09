@@ -44,8 +44,7 @@ letter = input("enter word to be searched: ")
 for i in range(0,len(data)):
     if(letter==data[i]):
         count=count+1
-    else:
-        print("this word is not present")    
+    
         
 print(count)
 f.close()
