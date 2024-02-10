@@ -4,6 +4,7 @@ def game(comp,you):
     if comp==you:
         return None
     if comp=='s':
+
         if you=='w':
             return False
         elif you=='g':
